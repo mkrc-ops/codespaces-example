@@ -8,11 +8,11 @@ on:
   build:
     runs-on: ubunutu-latest
     steps:
-      -uses: actions/checkout@v3
-      -name: Run a one-line scripts
-       run: echo Hello, World
-      -name: Run a multi-line script
-       run: |
+      - uses: actions/checkout@v3
+      - name: Run a one-line scripts
+        run: echo Hell0
+      - name: Run a multi-line script
+        run: |
          echo Add other actions
          echo test, and deploy your build
   
